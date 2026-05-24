@@ -56,3 +56,26 @@ The model uses:
 - a simple graph convolution plus GRU forecaster.
 
 This is intentionally compact so it is easy to modify before moving to heavier models such as STGCN, DCRNN, or Graph WaveNet.
+
+## Explainability Metrics
+
+After training, run:
+
+```powershell
+python evaluate_explainability.py --data data/metr-la.h5 --adj data/sensor_graph/adj_mx.pkl --checkpoint checkpoints/normal_best.pt
+```
+
+For a quick smoke run:
+
+```powershell
+python evaluate_explainability.py --data data/metr-la.h5 --adj data/sensor_graph/adj_mx.pkl --checkpoint checkpoints/normal_best.pt --max-batches 5 --output-dir reports/explainability_smoke
+```
+
+The evaluator writes:
+
+- per-horizon MAE and bias,
+- per-sensor MAE, bias, and graph degree,
+- time-of-day MAE,
+- speed-regime MAE,
+- node-degree vs error correlation,
+- best and worst sensors by MAE.

@@ -1,0 +1,4 @@
+regime,target_min_mph,target_max_mph,mae,sample_count
+low_speed,-0.000004,58.125000,12.826581,263884
+medium_speed,58.142857,64.500000,4.296146,261175
+high_speed,64.555557,70.000000,3.960169,269821

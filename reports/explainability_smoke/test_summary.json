@@ -1,0 +1,133 @@
+{
+  "split": "test",
+  "checkpoint": "checkpoints\\normal_best.pt",
+  "sample_count": 320,
+  "batch_count": 5,
+  "overall_mae_mph": 7.014030456542969,
+  "overall_bias_mph": 1.0345537662506104,
+  "degree_error_correlation": 0.2484969264746422,
+  "worst_sensors_by_mae": [
+    {
+      "sensor_index": 38,
+      "degree": 15,
+      "mae": 15.310212135314941,
+      "bias": 0.9542504549026489
+    },
+    {
+      "sensor_index": 77,
+      "degree": 11,
+      "mae": 13.471636772155762,
+      "bias": 6.645569801330566
+    },
+    {
+      "sensor_index": 127,
+      "degree": 13,
+      "mae": 12.592398643493652,
+      "bias": -0.04475270211696625
+    },
+    {
+      "sensor_index": 163,
+      "degree": 14,
+      "mae": 11.810636520385742,
+      "bias": -1.881823182106018
+    },
+    {
+      "sensor_index": 155,
+      "degree": 15,
+      "mae": 11.683415412902832,
+      "bias": -0.49152982234954834
+    },
+    {
+      "sensor_index": 105,
+      "degree": 11,
+      "mae": 11.637804985046387,
+      "bias": -1.5312649011611938
+    },
+    {
+      "sensor_index": 12,
+      "degree": 14,
+      "mae": 11.264575004577637,
+      "bias": 0.6895906329154968
+    },
+    {
+      "sensor_index": 187,
+      "degree": 16,
+      "mae": 11.004776000976562,
+      "bias": -1.3978840112686157
+    },
+    {
+      "sensor_index": 206,
+      "degree": 13,
+      "mae": 10.725045204162598,
+      "bias": 0.24733304977416992
+    },
+    {
+      "sensor_index": 159,
+      "degree": 12,
+      "mae": 10.269022941589355,
+      "bias": -0.08826979994773865
+    }
+  ],
+  "best_sensors_by_mae": [
+    {
+      "sensor_index": 16,
+      "degree": 19,
+      "mae": 3.579714298248291,
+      "bias": 0.13955698907375336
+    },
+    {
+      "sensor_index": 196,
+      "degree": 11,
+      "mae": 3.8410115242004395,
+      "bias": 0.033423613756895065
+    },
+    {
+      "sensor_index": 90,
+      "degree": 4,
+      "mae": 3.8915936946868896,
+      "bias": 1.1116981506347656
+    },
+    {
+      "sensor_index": 203,
+      "degree": 1,
+      "mae": 3.947350263595581,
+      "bias": 1.0372403860092163
+    },
+    {
+      "sensor_index": 67,
+      "degree": 7,
+      "mae": 4.018148899078369,
+      "bias": 1.7145493030548096
+    },
+    {
+      "sensor_index": 118,
+      "degree": 6,
+      "mae": 4.100588798522949,
+      "bias": 1.5979197025299072
+    },
+    {
+      "sensor_index": 107,
+      "degree": 4,
+      "mae": 4.190193176269531,
+      "bias": 0.12628735601902008
+    },
+    {
+      "sensor_index": 44,
+      "degree": 9,
+      "mae": 4.2064208984375,
+      "bias": 1.3365854024887085
+    },
+    {
+      "sensor_index": 177,
+      "degree": 6,
+      "mae": 4.230432987213135,
+      "bias": 1.255687952041626
+    },
+    {
+      "sensor_index": 123,
+      "degree": 8,
+      "mae": 4.314152717590332,
+      "bias": 1.869814395904541
+    }
+  ]
+}
