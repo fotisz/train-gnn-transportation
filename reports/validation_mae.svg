@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="72" y="42" font-size="24" font-weight="700" fill="#0f172a">METR-LA GNN Validation MAE</text>
+  <text x="72" y="66" font-size="14" fill="#64748b">Lower is better. Smoke training run, 3 epochs.</text>
+  <line x1="72" y1="448.0" x2="828" y2="448.0" stroke="#e5e7eb" stroke-width="1" /><text x="60" y="453.0" text-anchor="end" font-size="13" fill="#475569">0.295</text><line x1="72" y1="354.0" x2="828" y2="354.0" stroke="#e5e7eb" stroke-width="1" /><text x="60" y="359.0" text-anchor="end" font-size="13" fill="#475569">0.342</text><line x1="72" y1="260.0" x2="828" y2="260.0" stroke="#e5e7eb" stroke-width="1" /><text x="60" y="265.0" text-anchor="end" font-size="13" fill="#475569">0.390</text><line x1="72" y1="166.0" x2="828" y2="166.0" stroke="#e5e7eb" stroke-width="1" /><text x="60" y="171.0" text-anchor="end" font-size="13" fill="#475569">0.437</text><line x1="72" y1="72.0" x2="828" y2="72.0" stroke="#e5e7eb" stroke-width="1" /><text x="60" y="77.0" text-anchor="end" font-size="13" fill="#475569">0.484</text>
+  <line x1="72" y1="72" x2="72" y2="448" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="72" y1="448" x2="828" y2="448" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="72.0" y="480" text-anchor="middle" font-size="13" fill="#475569">1</text><text x="450.0" y="480" text-anchor="middle" font-size="13" fill="#475569">2</text><text x="828.0" y="480" text-anchor="middle" font-size="13" fill="#475569">3</text>
+  <text x="450.0" y="502" text-anchor="middle" font-size="14" fill="#334155">Epoch</text>
+  <text x="22" y="260.0" transform="rotate(-90 22 260.0)" text-anchor="middle" font-size="14" fill="#334155">MAE</text>
+  <polyline points="72.0,111.7 450.0,381.8 828.0,408.3" fill="none" stroke="#16a34a" stroke-width="3"/>
+  <polyline points="72.0,318.2 450.0,390.4 828.0,398.3" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <circle cx="72.0" cy="111.7" r="4" fill="#16a34a" />
+<circle cx="450.0" cy="381.8" r="4" fill="#16a34a" />
+<circle cx="828.0" cy="408.3" r="4" fill="#16a34a" />
+  <circle cx="72.0" cy="318.2" r="5" fill="#2563eb" />
+<circle cx="450.0" cy="390.4" r="5" fill="#2563eb" />
+<circle cx="828.0" cy="398.3" r="5" fill="#2563eb" />
+  <text x="72.0" y="306.2" text-anchor="middle" font-size="13" font-weight="600" fill="#1e40af">0.3602</text>
+<text x="450.0" y="378.4" text-anchor="middle" font-size="13" font-weight="600" fill="#1e40af">0.3239</text>
+<text x="828.0" y="386.3" text-anchor="middle" font-size="13" font-weight="600" fill="#1e40af">0.3199</text>
+  <rect x="655" y="34" width="176" height="64" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+  <line x1="676" y1="58" x2="716" y2="58" stroke="#2563eb" stroke-width="4"/>
+  <text x="730" y="63" font-size="13" fill="#334155">validation MAE</text>
+  <line x1="676" y1="82" x2="716" y2="82" stroke="#16a34a" stroke-width="3"/>
+  <text x="730" y="87" font-size="13" fill="#334155">training MAE</text>
+</svg>
